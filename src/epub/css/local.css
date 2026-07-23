@@ -11,3 +11,20 @@ footer{
 	font-variant: small-caps;
 }
 /* End of CSS for chapter 6 letter */
+
+/* Beginning of CSS for song verse in chapter 16 */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+/* End of CSS for song verse in chapter 16 */
